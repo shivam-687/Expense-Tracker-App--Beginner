@@ -1,0 +1,18 @@
+.expt-main{
+    max-width: 420px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+    .expt-main{
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+.tr_list::-webkit-scrollbar{
+    display: none;
+}
+
+
+    
