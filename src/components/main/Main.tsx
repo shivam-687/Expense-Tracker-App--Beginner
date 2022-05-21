@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useContext, useEffect, useState } from 'react';
-import { AppContext } from '../../core/contexts/AppContext';
 import { TransactionAppContext } from '../../core/contexts/TransactionAppContext';
 import { createTransaction, CreateTransatctionData, Transaction } from '../../core/Transaction';
 import { AddTransaction } from '../add-transaction/AddTransaction';

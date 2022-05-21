@@ -1,5 +1,4 @@
 import { PropsWithChildren, useContext, useEffect, useState } from "react";
-import { AppContext } from "../../core/contexts/AppContext";
 import { TransactionAppContext } from "../../core/contexts/TransactionAppContext";
 import { createTransaction } from "../../core/Transaction";
 import { Card } from "../utilities/card/Card";

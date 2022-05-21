@@ -1,7 +1,6 @@
 import { PropsWithChildren, useContext, useEffect, useRef, useState } from "react";
 import {TrashIcon} from '@heroicons/react/solid';
 import { Transaction } from "../../core/Transaction";
-import { AppContext } from "../../core/contexts/AppContext";
 import { TransactionAppContext } from "../../core/contexts/TransactionAppContext";
 
 export type TransactionListItemProps = PropsWithChildren<{
